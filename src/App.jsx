@@ -19,11 +19,11 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={
-            <React.Fragment>
+            <div>
               <Hero />
               <ContentPreview />
               <FunFacts />
-            </React.Fragment>
+            </div>
           } />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/diet" element={<Diet />} />
