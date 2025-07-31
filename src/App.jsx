@@ -1,16 +1,16 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import ContentPreview from './components/ContentPreview';
-import FunFacts from './components/FunFacts';
-import Footer from './components/Footer';
-import Gallery from './components/Gallery';
-import Diet from './components/Diet';
-import Habitat from './components/Habitat';
-import Classification from './components/Classification';
-import Anatomy from './components/Anatomy';
-import Behavior from './components/Behavior';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
+import ContentPreview from './components/ContentPreview.jsx';
+import FunFacts from './components/FunFacts.jsx';
+import Footer from './components/Footer.jsx';
+import Gallery from './components/Gallery.jsx';
+import Diet from './components/Diet.jsx';
+import Habitat from './components/Habitat.jsx';
+import Classification from './components/Classification.jsx';
+import Anatomy from './components/Anatomy.jsx';
+import Behavior from './components/Behavior.jsx';
 
 function App() {
   return (
